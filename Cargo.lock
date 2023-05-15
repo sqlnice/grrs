@@ -255,20 +255,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "grrs"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "assert_cmd",
- "clap",
- "env_logger",
- "indicatif",
- "log",
- "predicates",
- "tempfile",
-]
-
-[[package]]
 name = "heck"
 version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -507,6 +493,20 @@ dependencies = [
  "libc",
  "linux-raw-sys",
  "windows-sys 0.48.0",
+]
+
+[[package]]
+name = "rusty-tool"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "assert_cmd",
+ "clap",
+ "env_logger",
+ "indicatif",
+ "log",
+ "predicates",
+ "tempfile",
 ]
 
 [[package]]

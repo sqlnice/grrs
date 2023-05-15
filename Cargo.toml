@@ -1,5 +1,5 @@
 [package]
-name = "grrs"
+name = "rusty-tool"
 version = "0.1.0"
 authors = ["Felix"]
 license = "MIT OR Apache-2.0"

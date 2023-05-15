@@ -27,7 +27,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let content = fs::read_to_string(&args.path)
         .with_context(|| format!("cloud not read file `{}`", &args.path.display()))
         .unwrap();
-    grrs::find_matches(&content, &args.pattern, &mut io::stdout());
+    rusty_tool::find_matches(&content, &args.pattern, &mut io::stdout());
 
     Ok(())
 }
